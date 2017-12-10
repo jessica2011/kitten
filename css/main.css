@@ -8,14 +8,12 @@
   box-sizing: border-box;
 }
 .container {
-  position: relative;
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .row {
-  position: relative;
   margin: auto;
   width: 100%;
   height: auto;
@@ -338,7 +336,8 @@ img {
 /*condiciones exclusivamente para este trabajo*/
 
 figure {
-  margin-top: 20%;
+ position: absolute;
+ bottom: 0.5%;
 }
 
 body {
